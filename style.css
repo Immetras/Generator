@@ -10,15 +10,27 @@
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  width: 1584px;
 }
 
-main,
-aside {
-  flex: 1 1 1;
+#main,
+#aside {
+  /* flex: 1 1 1; */
+  line-height: 0;
 }
-aside {
-  width: 40%;
+#aside {
+  min-width: 384px;
+  width: 384px;
 }
-main {
-  width: 60%;
+#main {
+  /* width: calc(100%-384px); */
+  min-width: 1200px;
+  width: 1200px;
+  /* width: 100%; */
 }
+h3 {
+  line-height: 22px;
+}
+/* canvas{
+
+} */
